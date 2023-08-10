@@ -1,0 +1,156 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#overbox
+{
+    height: 580px;
+    width: 370px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+#topimage
+{
+    height: 250px;
+    background-image: url('images/illustration-hero.svg');
+    background-size: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.bottomelements
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0 40px;
+    background-color: white;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+h1, p
+{
+    margin: 0;
+    text-align: center;
+}
+
+h1
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+p
+{
+    font-size: 14px;
+}
+
+.plan
+{
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 25px 0;
+    background-color: hsl(225, 100%, 98%);
+}
+
+#change
+{
+    margin-left: auto;
+    align-self: center;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.subscription
+{
+    padding: 0;
+    margin-left: 15px;
+    align-self: center;
+}
+
+.subscription div
+{
+    font-size: 14px;
+}
+
+h2
+{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+p, #cancel, .subscription div
+{
+    color: hsl(224, 23%, 55%);
+}
+
+.button
+{
+    border-radius: 12px;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#pay
+{
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin-bottom: 10px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+#musicicon
+{
+    content: url('images/icon-music.svg');
+}
+
+#cancel:active
+{
+    color: hsl(223, 47%, 23%);
+}
+
+#change:active
+{
+    color: hsl(245, 40%, 65%);
+}
+
+#pay:active
+{
+    background-color: hsl(245, 40%, 65%);
+}
